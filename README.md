@@ -16,13 +16,13 @@ This project applies **K-Means clustering** to analyze **Nairobi taxi trip data*
 ✅ Remove **missing values**, filter out **(0,0) erroneous entries**, and keep data **within Nairobi’s city boundaries**.  
 
 **Cleaned Dataset Preview:**  
-![Cleaned Dataset](cleaned_dataset.png)  
+![Cleaned Dataset](img/cleaned_dataset.png)  
 
 ### 2️⃣ Data Preprocessing & Feature Scaling  
 ✅ Apply `StandardScaler` to **normalize** latitude & longitude for clustering.  
 
 **Scaled Dataset Statistics:**  
-![Scaled Data](scaled_data.png) 
+![Scaled Data](img/scaled_data.png) 
 
 ### 3️⃣ K-Means Clustering Implementation  
 ✅ Set `num_clusters = 6` to segment **transport pickup zones**.  
@@ -30,31 +30,31 @@ This project applies **K-Means clustering** to analyze **Nairobi taxi trip data*
 ✅ Extract **cluster centers**, representing **ideal transport hubs**.  
 
 **Scatter Plot with Clusters:**  
-![Cluster Visualization](cluster_visualization.png)  
+![Cluster Visualization](img/cluster_visualization.png)  
 
 ### 4️⃣ Evaluation Metrics  
 ✅ **Boxplots:** Detect anomalies in latitude & longitude distribution.  
 
 **Boxplot of Latitude:**  
-![Latitude Boxplot](boxplot_latitude.png)  
+![Latitude Boxplot](img/boxplot_latitude.png)  
 
 **Boxplot of Longitude:**  
-![Longitude Boxplot](boxplot_longitude.png)  
+![Longitude Boxplot](img/boxplot_longitude.png)  
 
 ✅ **Heatmap Analysis:** Identify high-density taxi pickup areas.  
 
 **Density Heatmap of Pickup Locations:**  
-![Density Heatmap](density_heatmap.png)  
+![Density Heatmap](img/density_heatmap.png)  
 
 ✅ **Pairplot:** Visualize feature relationships in location data.  
 
 **Pairplot of Latitude and Longitude:**  
-![Pairplot](pairplot.png)  
+![Pairplot](img/pairplot.png)  
 
 ✅ **Cluster Distribution Plot:** Ensures transport demand is balanced across clusters.  
 
 **Cluster Size Distribution:**  
-![Cluster Size Distribution](cluster_distribution.png)  
+![Cluster Size Distribution](img/cluster_distribution.png)  
 
 ## 🔍 Ethical Reflection  
 

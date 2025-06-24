@@ -28,7 +28,7 @@ This project applies **K-Means clustering** to analyze **Nairobi taxi trip data*
 
 ### 3️⃣ K-Means Clustering Implementation  
 ✅ Set `num_clusters = 6` to segment **transport pickup zones**.  
-✅ Train the **K-Means model** on scaled data.  
+✅ Train  **K-Means model** on scaled data.  
 ✅ Extract **cluster centers**, representing **ideal transport hubs**.  
 
 **Scatter Plot with Clusters:**  
@@ -62,7 +62,7 @@ This project applies **K-Means clustering** to analyze **Nairobi taxi trip data*
 
 ### How Might Bias in the Data Affect Outcomes?  
 ✅ **Geographical Bias:** If the dataset overrepresents **high-traffic urban areas**, clustering may **neglect underserved regions** where transport accessibility is lower.  
-✅ **Time-Based Bias:** If data collection mostly occurred during **rush hours**, it may misrepresent **off-peak transport demand**, leading to **ineffective service distribution**.  
+✅ **Time-Based Bias:** If the data collection mostly occurred during **rush hours**, it may misrepresent **off-peak transport demand**, leading to **ineffective service distribution**.  
 ✅ **User Demographic Bias:** Since ride-hailing services are used predominantly by **middle- and upper-income groups**, the clustering model may not reflect the **needs of lower-income commuters** relying on informal transport.  
 
 ### How Does the Solution Promote Fairness and Sustainability?  
